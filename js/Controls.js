@@ -1,3 +1,6 @@
+
+
+
 //Controls
 
 
@@ -14,22 +17,22 @@ function press (e)
 //a and d
    if (e.keyCode == 65)
     {
-        a = true; 
+        //a = true; 
     } 
     if (e.keyCode == 68)
     {
-        d = true;
+        //d = true;
     }
 
 
     // w and s
     if (e.keyCode == 87)
     {
-        w = true; 
+      //  w = true; 
     } 
     if (e.keyCode == 83)
     {
-        s = true;
+      //  s = true;
     }
    // console.log("Rress " + e.keyCode);
 
@@ -42,20 +45,20 @@ function release (e)
     //for a and d
     if (e.keyCode == 65)
     {
-        a=false;
+      //  a=false;
     }
     if(e.keyCode == 68)
     {
-        d=false;
+       // d=false;
     }
 
 //for w and s
     if (e.keyCode == 87)
     {
-        w = false; 
+       // w = false; 
     } 
     if (e.keyCode == 83)
     {
-        s = false;
+       // s = false;
     }
-} 
+}
