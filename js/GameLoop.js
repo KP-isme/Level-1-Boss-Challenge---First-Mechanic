@@ -4,7 +4,7 @@ var player;
 var timer;
 var interval = 1000/60; //this means the animation is going to play in 60 milliseconds
 
-
+     
 var frictionX = 1;
 var frictionY = 1;
 var gravity = 0;
